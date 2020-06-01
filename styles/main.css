@@ -452,7 +452,7 @@ input[type=submit] {
 
 .practice_areas {
   margin-top: 120px;
-  padding: 90px;
+  padding: 90px 0px 50px 0px;
 }
 
 .pa_body {
