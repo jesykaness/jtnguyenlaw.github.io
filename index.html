@@ -62,11 +62,11 @@
       <section class="contact_us">
         <div class="contact_form">
           <h2>Contact us for a consultation</h2>
-          <form action="contact.php">
-            <input type="text" id="name" placeholder="Name">
-            <input type="text" id="phone" placeholder="Phone">
-            <input type="text" id="email" placeholder="Email">
-            <textarea id="subject" placeholder="Tell us your concern..." style="height: 150px"></textarea>
+          <form class="contactform" action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="phone" placeholder="Phone">
+            <input type="text" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Tell us your concern..." style="height: 150px"></textarea>
             <br>
             <input type="submit" value="Submit">
           </form>
