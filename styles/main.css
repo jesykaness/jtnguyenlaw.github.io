@@ -106,7 +106,7 @@ i {
   background-size: cover;
   background-position: center center;
   margin-top: 120px;
-  padding: 90px;
+  padding: 90px 0px;
 }
 
 .hero_text {
@@ -250,6 +250,203 @@ input[type=submit] {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 767px) {
+  footer {
+    height: 340px;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  .navigation {
+    height: 140px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .navigation_list {
+    float: none;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .navigation li {
+    font-size: 1.3rem;
+    padding: 10px 25px;
+  }
+
+  .hero {
+    margin-top: 170px;
+    padding: 0px;
+    width: 100%;
+  }
+  .hero-text {
+    padding-top: 60px;
+    width: 100%;
+  }
+  .button {
+    font-size: 1.4rem;
+  }
+
+  .our_story {
+    padding: 60px 25px;
+  }
+
+  .osc {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0px;
+  }
+  .osc_image {
+    margin: 0 auto;
+  }
+  .osc_image img {
+    height: 242px;
+    padding-bottom: 60px;
+  }
+
+  .contact_us {
+    grid-template-columns: auto;
+  }
+  .contact_form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 85%;
+  }
+  .contact_form h2 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .contact_info {
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 220px;
+  }
+  input[type=text], input[id=phone], input[id=email], textarea {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .disclaimer h3 {
+    max-width: 300px;
+  }
+  .copyright h3 {
+    max-width: 250px;
+  }
+  #myBtn {
+  bottom: 20px;
+  right: 20px;
+  }
+
+  a.anchor {
+    top: -170px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navigation {
+    height: 140px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .navigation_list {
+    float: none;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .navigation li {
+    font-size: 1.6rem;
+    padding: 20px 25px;
+  }
+
+  .hero {
+    margin-top: 170px;
+    padding: 0px;
+    width: 100%;
+  }
+  .hero-text {
+    padding-top: 60px;
+    width: 100%;
+  }
+  .our_story {
+    padding: 60px 40px 0px 40px;
+  }
+
+  .osc {
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .osc_image img {
+    height: inherit;
+    width: 100%;
+  }
+  .osc_text {
+    padding-top: 40px;
+  }
+
+  .contact_us {
+    grid-template-columns: auto;
+  }
+  .contact_form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 85%;
+  }
+  .contact_form h2 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .contact_info {
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 220px;
+  }
+  input[type=text], input[id=phone], input[id=email], textarea {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 /* Practice Areas */
 
 .practice_areas {
@@ -276,7 +473,36 @@ input[type=submit] {
   display: grid;
   grid-template-columns: 1fr 1.6fr;
   grid-column-gap: 80px;
-  padding: 80px 0px;
+  padding: 80px 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .practice_areas{
+    padding: 90px 25px 40px 25px;
+  }
+  .pa_row {
+    grid-template-columns: auto;
+    padding: 40px 25px
+  }
+  .pa_image {
+    margin: 0 auto;
+  }
+  .pa_image img {
+    width: 100%;
+  }
+  .pa_text {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .pa_image img {
+      width: 300px;
+    }
+    .pa_row {
+      grid-column-gap: 40px;
+      padding: 40px 25px;
+    }
 }
 
 /* Testimonials */
@@ -296,6 +522,21 @@ input[type=submit] {
   font-style: italic;
   line-height: 3;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .testimonials {
+    padding: 90px 25px;
+  }
+  .review {
+    padding-top: 50px;
+  }
+  .review h4 {
+    font-size: 1.6rem;
+  }
+  .review p {
+    font-size: 1.4rem;
+  }
 }
 
 /* Privacy Policy */
@@ -318,4 +559,10 @@ input[type=submit] {
 .dpp_disclaimer, .privacypolicies {
   margin: 0 auto;
   padding-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .dpp {
+    padding: 90px 25px;
+  }
 }
