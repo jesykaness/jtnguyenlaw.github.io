@@ -206,10 +206,16 @@ input[type=submit] {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 10px 15px;
-  border: none;
+  border: .1px solid #FFFFFF;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
+}
+
+input[type=submit]:hover {
+  background-color: #666666;
+  color: #FFFFFF;
+  border: .1px solid #FFFFFF;
 }
 
 .social_media {
