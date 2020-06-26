@@ -120,17 +120,22 @@ i {
 
 .button {
   background-color: #15136A;
-  border: none;
-  border-radius: 20px;
+  border: .1px solid #15136A;
+  border-radius: 40px;
   color: #FFFFFF;
   cursor: pointer;
   display: flex;
   outline: none;
-  padding: 10px 15px;
+  padding: 12px 18px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #666666;
+  border: .1px solid #FFFFFF;
 }
 
 .our_story {
