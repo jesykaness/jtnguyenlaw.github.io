@@ -509,34 +509,50 @@ input[type=submit] {
 /* Testimonials */
 
 .testimonials {
+  line-height: normal;
   margin-top: 120px;
-  padding: 90px;
+  padding: 90px 0px;
+  width: 100%;
 }
 
-.review {
+.review, .review_color {
   margin: 0 auto;
-  max-width: 900px;
-  padding-top: 80px;
+  width: 100%;
+  padding: 50px 0px;
 }
 
-.review p {
+.review_color {
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
+.review p, .review_color p {
   font-style: italic;
   line-height: 3;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.review h4, .review_color h4 {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.review_color h4 {
+  color: #15136A;
 }
 
 @media screen and (max-width: 767px) {
-  .testimonials {
-    padding: 90px 25px;
+  .review, .review_color {
+    padding: 30px 0px;
   }
-  .review {
-    padding-top: 50px;
-  }
-  .review h4 {
+  .review h4, .review_color h4 {
     font-size: 1.6rem;
+    padding: 0px 15px;
   }
-  .review p {
+  .review p, .review_color p {
     font-size: 1.4rem;
+    padding: 0px 15px;
   }
 }
 
