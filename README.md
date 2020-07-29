@@ -1,4 +1,4 @@
-# Jim T. Ngyuen Law Website.
+# Jim T. Nguyen Law Website.
 
 This website is for prospective clients inquiring about the services of Jim T. Ngyuen. Contact information and testimonials will also be posted.
 
