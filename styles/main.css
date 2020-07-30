@@ -99,6 +99,13 @@ i {
   padding-right: 45px;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
 .hero {
   background-image: url("../images/bookandpen.jpg");
   background-size: cover;
@@ -341,6 +348,11 @@ input[type=submit]:hover {
     padding-bottom: 60px;
   }
 
+  .osc_text {
+    margin: 0 auto;
+    width: 90%;
+  }
+
   .contact_us {
     grid-template-columns: auto;
   }
@@ -357,7 +369,7 @@ input[type=submit]:hover {
     padding: 20px;
     padding-bottom: 40px;
     margin: 0 auto;
-    width: 220px;
+    width: 190px;
   }
   input[type=text], input[id=phone], input[id=email], textarea {
     width: 100%;
