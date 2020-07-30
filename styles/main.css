@@ -65,7 +65,7 @@ footer p, .contact_info p {
 }
 
 b {
-  font-weight: 200;
+  font-weight: 600;
 }
 
 i {
@@ -196,8 +196,8 @@ input[type=text], textarea {
   font-family: "Source Sans Pro";
   font-size: 15px;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #666666;
+  border-radius: 8px;
   box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -210,21 +210,21 @@ input[id=phone], input[id=email] {
   margin-right: 20px;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #FFFFFF;
   font-family: "Source Sans Pro";
   font-size: 15px;
   color: #666666;
   margin-top: 10px;
   margin-bottom: 15px;
-  padding: 10px 15px;
-  border: .1px solid #FFFFFF;
-  border-radius: 5px;
+  padding: 8px 12px;
+  border: .1px solid #666666;
+  border-radius: 8px;
   cursor: pointer;
   outline: none;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #666666;
   color: #FFFFFF;
   border: .1px solid #FFFFFF;
@@ -605,5 +605,77 @@ input[type=submit]:hover {
 @media screen and (max-width: 767px) {
   .dpp {
     padding: 90px 25px;
+  }
+}
+
+/* Contact Page */
+
+.contactpage {
+  line-height: normal;
+  margin-top: 120px;
+  padding-top: 90px;
+}
+
+.contactpage h2 {
+  text-align: center;
+}
+
+.contactpage_us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 40px 0px 80px 0px;
+  background-color: #FFFFFF;
+  align-items: baseline;
+}
+
+.contactpage_form {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 700px;
+}
+.contactpage_form h2 {
+  font-size: 3.55rem;
+  color: #FFFFFF;
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+.contact_text {
+  padding: 60px;
+}
+
+.feelfree {
+  font-size: 2.2rem;
+  padding: 10px 0px;
+}
+
+.address {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  .contactpage_us {
+    grid-template-columns: auto;
+  }
+  .contactpage_form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+  }
+  .contactpage_form h2 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .contact_text {
+    padding: 20px;
+  }
+  .contact_text h2 {
+    font-size: 2.4rem;
+  }
+  .feelfree {
+    font-size: 2.0rem;
+  }
+  .address {
+    font-size: 1.4rem;
   }
 }
