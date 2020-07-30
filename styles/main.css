@@ -27,7 +27,7 @@ footer {
 
 h1 {
   color: #15136A;
-  font-size: 5.4rem;
+  font-size: 4.8rem;
   font-weight: bolder;
   text-align: center;
 }
@@ -491,6 +491,10 @@ button[type=submit]:hover {
 
 .pa_text {
   margin: 0 auto;
+}
+
+.pa_text h4 {
+  font-size: 2.6rem;
 }
 
 .pa_row {
