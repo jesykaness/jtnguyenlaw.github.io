@@ -620,6 +620,18 @@ button[type=submit]:hover {
   padding-top: 90px;
 }
 
+.contact_picture {
+  background-color: #f2efeb;
+  margin: 90px 0px 40px 0px;
+}
+
+.contact_picture img {
+  display: block;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .contactpage h2 {
   text-align: center;
 }
