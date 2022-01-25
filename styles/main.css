@@ -554,7 +554,15 @@ button[type=submit]:hover {
   background-color: #F6F6F6;
 }
 
-.review p, .review_color p {
+.video_review {
+  margin: 0 auto;
+  width: 100%;
+  padding: 50px 0px;
+  width: 900px;
+  height: 506px;
+}
+
+.review p, .review_color p, .video_review p {
   font-style: italic;
   line-height: 3;
   margin: 0 auto;
